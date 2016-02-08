@@ -7,8 +7,8 @@ include("RG4_D.jl")
 include("Propa_JF2012_simple.jl")
 
 #Features constantes
-Charge=26 # 1 para p, 8 para O, 26 para Fe
-Mass=56 # 1 para p, 16 para O, 56 para Fe
+Charge=26 # 1 for p, 8 for O, 26 for Fe
+Mass=56 # 1 for p, 16 for O, 56 for Fe
 Energy=60 #Eev
 N_lon=360
 N_lat=180
