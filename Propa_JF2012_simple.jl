@@ -24,7 +24,6 @@ function Propa_JF2012_simple(Charge,Mass,Energy, galactic_l, galactic_b,my_print
     ny=cos(galactic_b_rad)*sin(galactic_l_rad);
     nz=sin(galactic_b_rad);
 
-
     n_inicial=[nx,ny,nz]
     n_inicial=n_inicial/norm(n_inicial);
     v0=c*sqrt(1-m0^2c^4/E0^2)*n_inicial;
